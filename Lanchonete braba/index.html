@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lanchonete</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="css\style.css">
+
+  </head>
+  <body>
+
+    <!-- Titles -->
+    <div class="MainContainer">
+  <div class="Parallax">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="row">
+          <h1>Lanchonetes</h1>
+          <h3>Lanches</h3>
+        </div>
+      </div>
+
+      <!-- Buttons -->
+      <div class="row">
+        <div class="col-md-4">
+          <button type="button" name="button" value="4.00" id="xburguer">X-Vaca R$4,00</button>
+          <button type="button" name="button" value="7.00" id="xtudo">X-Tudo R$7,00</button>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <button type="button" name="button" value="4.00" id="xsalada">X-Mato R$4,00</button>
+            <button type="button" name="button" value="3.00" id="bauru">Bauru R$3,00</button>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <button type="button" name="button" value="5.00" id="xegg">X-Ovo R$5,00</button>
+              <button type="button" name="button" value="3.00" id="misto">Misto R$3,00</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3>Bebidas</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <button type="button" name="button" value="1.50" id="agua">Água R$1,50</button>
+          <button type="button" name="button" value="2.50" id="suco">Suco R$2,50 </button>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <button type="button" name="button" value="4.00" id="guarana">Guaraná R$4,00</button>
+            <button type="button" name="button" value="3.00" id="dolly">Dolly R$3,00</button>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <button type="button" name="button" value="5.00" id="coca">CocaCola R$5,00</button>
+              <button type="button" name="button" value="3.00" id="breja">Cerveja R$3,00</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <button type="button" name="button" id="conta">Fechar Conta</button>
+        </div>
+
+        <!-- Tables -->
+        <div class="row">
+          <div class="col-md-12">
+            <table class="table" id="tabela">
+              <tr>
+                <th colspan="1">Produto</th>
+                <th colspan=11>Valor</th>
+              </tr>
+            </table>
+            <h2 id=resultado> </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- JavaScript -->
+    <script src="js\jquery-3.4.0.js"></script>
+    <script src="js\lanch.js"></script>
+  </body>
+</html>
